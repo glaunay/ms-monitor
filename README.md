@@ -12,8 +12,8 @@ The MS-monitor is divided in 2 parts : the client and the server.
   - treat HTML routes ;
 - The server must be able to :
   - receive a namespace, find the associated pipeline and its tasks (see the [Pipeline definitions](#definitions) section) ;
-  - find the state of all the tasks composing a pipeline (see the [Pipeline](#pipeline) section) ;
-  - interact with other MS thanks to packets (see the [Task states](#task-states) section) ;
+  - find the state of all the tasks composing a pipeline (see the [Task states](#task-states) section) ;
+  - interact with other MS thanks to packets (see the [Packets](#packets) section) ;
 
 ### Pipeline
 

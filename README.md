@@ -20,7 +20,7 @@ The MS-monitor is divided in 2 parts : the client and the server.
 #### Definitions
 A pipeline is :
 - a sequence of tasks, organized in graph ;
-- described by a JSON ;
+- described by a JSON, this is the **topology** ;
 - saved in a directory named **namespace**, containing one directory per task ;
 
 A task wraps a bioinformatic job in order to manage its pre- and post-processing. The interest is that tasks can be linked up to each other and thereby form a pipeline :
